@@ -7,6 +7,9 @@
 		"EXT_texture_webp",
 		"KHR_materials_emissive_strength"
 	],
+	"extensionsRequired":[
+		"EXT_texture_webp"
+	],
 	"scene":0,
 	"scenes":[
 		{
@@ -41,7 +44,7 @@
 			},
 			"extensions":{
 				"KHR_materials_emissive_strength":{
-					"emissiveStrength":2.499999761581421
+					"emissiveStrength":1.5
 				}
 			},
 			"name":"DiceErran",
@@ -83,8 +86,15 @@
 					"source":0
 				}
 			},
-			"sampler":0,
-			"source":1
+			"sampler":0
+		},
+		{
+			"extensions":{
+				"EXT_texture_webp":{
+					"source":1
+				}
+			},
+			"sampler":0
 		},
 		{
 			"extensions":{
@@ -92,68 +102,37 @@
 					"source":2
 				}
 			},
-			"sampler":0,
-			"source":3
+			"sampler":0
 		},
 		{
 			"extensions":{
 				"EXT_texture_webp":{
-					"source":4
+					"source":3
 				}
 			},
-			"sampler":0,
-			"source":5
-		},
-		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":6
-				}
-			},
-			"sampler":0,
-			"source":7
+			"sampler":0
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/webp",
 			"name":"jd12_DefaultMaterial_Emissive_Utility - sRGB - Texture",
-			"uri":"Textures/jd12_DefaultMaterial_Emissive_Utility%20-%20sRGB%20-%20Texture.webp"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"jd12_DefaultMaterial_Emissive_Utility - sRGB - Texture",
-			"uri":"Textures/jd12_DefaultMaterial_Emissive_Utility%20-%20sRGB%20-%20Texture.png"
+			"uri":"textures/jd12_DefaultMaterial_Emissive_Utility%20-%20sRGB%20-%20Texture.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"jd12_DefaultMaterial_Normal_Utility - Raw",
-			"uri":"Textures/jd12_DefaultMaterial_Normal_Utility%20-%20Raw.webp"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"jd12_DefaultMaterial_Normal_Utility - Raw",
-			"uri":"Textures/jd12_DefaultMaterial_Normal_Utility%20-%20Raw.png"
+			"uri":"textures/jd12_DefaultMaterial_Normal_Utility%20-%20Raw.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"jd12_DefaultMaterial_BaseColor_Utility - sRGB - Texture",
-			"uri":"Textures/jd12_DefaultMaterial_BaseColor_Utility%20-%20sRGB%20-%20Texture.webp"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"jd12_DefaultMaterial_BaseColor_Utility - sRGB - Texture",
-			"uri":"Textures/jd12_DefaultMaterial_BaseColor_Utility%20-%20sRGB%20-%20Texture.png"
+			"uri":"textures/jd12_DefaultMaterial_BaseColor_Utility%20-%20sRGB%20-%20Texture.webp"
 		},
 		{
 			"mimeType":"image/webp",
 			"name":"jd12_DefaultMaterial_Metallic_Utility - Raw-jd12_DefaultMaterial_Roughness_Utility - Raw",
-			"uri":"Textures/jd12_DefaultMaterial_Metallic_Utility%20-%20Raw-jd12_DefaultMaterial_Roughness_Utility%20-%20Raw.webp"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"jd12_DefaultMaterial_Metallic_Utility - Raw-jd12_DefaultMaterial_Roughness_Utility - Raw",
-			"uri":"Textures/jd12_DefaultMaterial_Metallic_Utility%20-%20Raw-jd12_DefaultMaterial_Roughness_Utility%20-%20Raw.png"
+			"uri":"textures/jd12_DefaultMaterial_Metallic_Utility%20-%20Raw-jd12_DefaultMaterial_Roughness_Utility%20-%20Raw.webp"
 		}
 	],
 	"accessors":[
