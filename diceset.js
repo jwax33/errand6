@@ -1,4 +1,4 @@
-Hooks.once('diceSoNiceReady', (dice3d) => {
+Hooks.once("diceSoNiceReady", (dice3d) => {
 	dice3d.addSystem({id: "errand6", name: "errand6"}, false);
 	dice3d.addDicePreset({
 		type: "d6",
