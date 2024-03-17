@@ -4,7 +4,7 @@
     "name": "errand6",
     "manifest": "https://raw.githubusercontent.com/jwax33/errand6/main/module.json",
     "download": "https://github.com/jwax33/errand6/archive/refs/tags/v0.075.zip",
-    "description": "Custom d6 die for Erran's Shadowrun games.",
+    "description":"Custom d6 die for Erran's Shadowrun games.",
     "version": ".075",
     "compatibility": {
         "minimum": "0.8.4",
