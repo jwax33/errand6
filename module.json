@@ -7,15 +7,10 @@
     "description":"Custom d6 die for Erran's Shadowrun games.",
     "version": ".075",
     "compatibility": {
-        "minimum": "0.8.4",
+        "minimum": "10",
         "verified": "11"
     },
-    "authors":[
-        {
-            "name": "FlakBait",
-            "discord": "quantumsplat"
-        }
-    ],
+    "author": "FlakBait", 
     "relationships.requires": {
         "type": "module",
         "name": "dice-so-nice",
