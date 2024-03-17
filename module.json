@@ -2,17 +2,16 @@
 	"title": "Erran's Shadowrun d6",
 	"id": "errand6",
 	"name": "errand6",
-
 	"description": "Custom d6 die for Erran's Shadowrun games.",
 	"version": ".075",
 	"compatibility": {
 		"minimum": "0.8.4",
 		"verified": "11"
 	  },
-	"authors": [
+	"authors":[
 		{
 			"name": "FlakBait",
-			"discord": "quantumsplat",
+			"discord": "quantumsplat"
 		}
 	],
 	"relationships.requires": {
