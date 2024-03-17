@@ -1,0 +1,28 @@
+{
+	"title": "Erran's Shadowrun d6",
+	"id": "errand6",
+	"name": "errand6",
+
+	"description": "Custom d6 die for Erran's Shadowrun games.",
+	"version": ".075",
+	"compatibility": {
+		"minimum": "0.8.4",
+		"verified": "11"
+	  },
+	"authors": [
+		{
+			"name": "FlakBait",
+			"discord": "quantumsplat",
+		}
+	],
+	"relationships.requires": {
+		"type": "module",
+		"name": "dice-so-nice",
+		"id": "dice-so-nice"
+	},
+	"scripts": [
+		"diceset.js"
+	],
+	"manifest": "https://foundryvtt.s3-us-west-2.amazonaws.com/modules/trs-foundryvtt-dice-set/module.json",
+	"download": "https://foundryvtt.s3.us-west-2.amazonaws.com/modules/trs-foundryvtt-dice-set/trs-foundryvtt-dice-set-1.0.1.zip",
+}
