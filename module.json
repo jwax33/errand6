@@ -10,7 +10,7 @@
         "minimum": "0.8.4",
         "verified": "11"
     },
-    "authors": [
+    "authors":[
         {
             "name": "FlakBait",
             "discord": "quantumsplat"
